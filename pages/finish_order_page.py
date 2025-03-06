@@ -51,5 +51,5 @@ class Finish_order_page(Base):
         self.click_select_delivery_address()
         self.click_select_order_pay()
         # self.click_select_finish_button()
-        # self.get_screenshot()
+        self.get_screenshot()
 

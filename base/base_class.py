@@ -24,7 +24,7 @@ class Base:
     def get_screenshot(self):
         now_date = datetime.datetime.utcnow().strftime('%Y.%m.%d %H.%M.%S')
         name_screen = 'screenshot ' + now_date + '.png'
-        self.driver.save_screenshot(f'/Volumes/EMKA/IT/Python/Pytest/main_project/screen/{name_screen}')
+        self.driver.save_screenshot(f'/Volumes/EMKA/IT/Python/Pytest/home_project/screen/{name_screen}')
 
     """ Method assert url  """
     def assert_url(self, result):
